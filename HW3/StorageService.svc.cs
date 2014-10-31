@@ -27,7 +27,7 @@ namespace HW3
                 //create unique file path
                 string filePath = UPLOAD_PATH + "\\" + DateTime.Now.ToFileTimeUtc() + uploadedFile.nameOfFile;
 
-
+                writeToLog("FilePath: " + filePath);
                 //if the directory is not found, create it
                 if (!Directory.Exists(UPLOAD_PATH))
                 {
@@ -60,15 +60,32 @@ namespace HW3
             catch (Exception ex)
             {
 
-                //write exception to log
-                FileStream outputStream = File.Open(UPLOAD_PATH + "\\log.txt", FileMode.OpenOrCreate);
-                StreamWriter outputStreamWriter = new StreamWriter(outputStream);
-
-                outputStreamWriter.WriteLine(ex.ToString());
-
+                writeToLog(ex.ToString());
                 return new FileUploadResponse { FileURL = null};
             }
 
+        }
+
+        private void writeToLog(string infoToWrite)
+        {
+            StreamWriter outputStreamWriter;
+
+            string logPath = UPLOAD_PATH + "\\log.txt";
+
+            //if the log is not created, create it.
+            if (!File.Exists(logPath))
+                outputStreamWriter = File.CreateText(logPath);
+            else
+                outputStreamWriter = File.AppendText(logPath);
+            
+
+            
+
+           //write current time to log and string passed to log
+            outputStreamWriter.WriteLine(DateTime.Now.ToString());
+            outputStreamWriter.WriteLine(infoToWrite);
+
+            outputStreamWriter.Close();
         }
     }
 }
