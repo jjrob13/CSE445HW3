@@ -11,7 +11,6 @@ namespace HW3Tests
         {
             string fileName = "test.txt";
             string testFileToStore = "C:\\\\Users\\John\\Desktop\\" + fileName;
-            Console.WriteLine(testFileToStore);
             StorageService1.StorageServiceClient storageService = new StorageService1.StorageServiceClient();
 
 
@@ -23,6 +22,17 @@ namespace HW3Tests
 
             Console.WriteLine(resultPath);
 
+
+        }
+
+        [TestMethod]
+        public void NewsService()
+        {
+            string searchTerm = "Arizona State University";
+
+            string restURL = "http://localhost:51741/NewsService.svc/search/";
+
+            string fullSearchURL = restURL + searchTerm;
 
         }
     }

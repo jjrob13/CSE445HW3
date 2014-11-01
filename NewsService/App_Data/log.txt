@@ -1,0 +1,490 @@
+10/31/2014 5:46:42 PM
+APICall: http://api.feedzilla.com/v1/categories/26/articles/search.json?q=asu
+10/31/2014 5:46:43 PM
+System.Collections.ArrayList
+10/31/2014 5:46:44 PM
+System.InvalidCastException: Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+   at NewsService.NewsService.getNews(String newsTopic) in c:\Users\John\Desktop\CSE 445\HW3\NewsService\NewsService.svc.cs:line 66
+10/31/2014 5:51:08 PM
+APICall: http://api.feedzilla.com/v1/categories/26/articles/search.json?q=asu
+10/31/2014 5:53:07 PM
+APICall: http://api.feedzilla.com/v1/categories/26/articles/search.json?q=asu
+10/31/2014 5:55:09 PM
+APICall: http://api.feedzilla.com/v1/categories/26/articles/search.json?q=asu
+10/31/2014 5:55:09 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:55:09 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:55:09 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:55:09 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:55:09 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:55:09 PM
+http://www.cbssports.com/partners/feeds/rss/home_news
+10/31/2014 5:55:09 PM
+http://rss.sportsblogs.org/rss/daily.xml
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_38
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:55:09 PM
+http://www.eurekalert.org/rss/medicine_health.xml
+10/31/2014 5:55:09 PM
+http://feeds.ign.com/ign/wireless-all
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:55:09 PM
+http://rss.sportsblogs.org/rss/daily.xml
+10/31/2014 5:55:09 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:55:10 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:55:10 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:56:25 PM
+APICall: http://api.feedzilla.com/v1/categories/26/articles/search.json?q=asu
+10/31/2014 5:56:25 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:56:25 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:56:25 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:56:25 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:56:25 PM
+http://archive.azcentral.com/rss/feeds/12news_homepage_video.xml
+10/31/2014 5:56:25 PM
+http://www.cbssports.com/partners/feeds/rss/home_news
+10/31/2014 5:56:25 PM
+http://rss.sportsblogs.org/rss/daily.xml
+10/31/2014 5:56:25 PM
+http://feeds.bizjournals.com/vertical_38
+10/31/2014 5:56:25 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:56:26 PM
+http://www.eurekalert.org/rss/medicine_health.xml
+10/31/2014 5:56:26 PM
+http://feeds.ign.com/ign/wireless-all
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:56:26 PM
+http://rss.sportsblogs.org/rss/daily.xml
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_50
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 5:56:26 PM
+http://feeds.bizjournals.com/vertical_1
+10/31/2014 6:18:13 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onasu
+10/31/2014 6:18:13 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:18:13 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:18:13 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:18:13 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:18:13 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:18:13 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:18:13 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:18:13 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:18:13 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:18:13 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:18:13 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:18:13 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:18:13 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:18:13 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:18:13 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:18:13 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:18:13 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:18:13 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:18:13 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:18:13 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:18:13 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:18:13 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:19:01 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onstanford
+10/31/2014 6:19:02 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:19:02 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:19:02 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:19:02 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:19:02 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:19:02 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:19:02 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:19:02 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:19:02 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:19:02 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:19:02 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:19:02 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:19:02 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:19:02 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:19:02 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:19:02 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:19:02 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:19:02 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:19:02 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:19:02 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:19:02 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:19:02 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:19:10 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onstanford
+10/31/2014 6:19:10 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:19:10 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:19:10 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:19:10 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:19:10 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:19:10 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:19:10 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:19:10 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:19:10 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:19:10 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:19:10 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:19:10 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:19:10 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:19:10 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:19:10 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:19:10 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:19:10 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:19:10 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:19:10 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:19:10 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:19:10 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:19:10 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:19:12 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onstanford
+10/31/2014 6:19:12 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:19:12 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:19:12 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:19:12 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:19:12 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:19:12 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:19:12 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:19:12 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:19:12 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:19:12 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:19:12 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:19:12 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:19:12 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:19:12 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:19:12 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:19:12 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:19:12 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:19:12 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:19:12 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:19:12 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:19:12 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:19:12 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:19:19 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onhello
+10/31/2014 6:19:20 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:19:20 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:19:20 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:19:20 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:19:20 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:19:20 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:19:20 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:19:20 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:19:20 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:19:20 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:19:20 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:19:20 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:19:20 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:19:20 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:19:20 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:19:20 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:19:20 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:19:20 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:19:20 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:19:20 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:19:20 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:19:20 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:19:32 PM
+APICall: http://reddit.com/r/news/search.json?q=asu&restrict_sr=onstanford
+10/31/2014 6:19:32 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-following-offensive-mlk-party
+10/31/2014 6:19:32 PM
+http://phys.org/news/2014-04-potentially-habitable-earth-sized-planet-liquid.html
+10/31/2014 6:19:32 PM
+http://abclocal.go.com/wls/story?section=news/national_world&amp;id=9315634
+10/31/2014 6:19:32 PM
+http://www.sec.gov/News/PressRelease/Detail/PressRelease/1370543011290#.VCBYmxYxvW-
+10/31/2014 6:19:32 PM
+http://www.torontosun.com/2012/08/21/daycare-staff-charged-with-running-toddler-fight-club
+10/31/2014 6:19:32 PM
+http://www.breaking911.com/breaking-police-mistakenly-release-inmate-awaiting-murder-trial/
+10/31/2014 6:19:32 PM
+http://www.azfamily.com/video/raw/Raw-video-ASU-professor-arrested-after-struggle-with-police-265002461.html
+10/31/2014 6:19:32 PM
+http://www.kpho.com/story/24535539/asu-boots-tke-in-wake-of-offensive-mlk-party
+10/31/2014 6:19:32 PM
+http://www.azcentral.com/story/news/local/tempe/2014/10/11/black-painted-faces-asu-game-stir-concerns/17091855/
+10/31/2014 6:19:32 PM
+http://www.nydailynews.com/news/crime/asu-student-busted-ecstasy-factory-apartment-campus-article-1.1539042
+10/31/2014 6:19:32 PM
+http://www.reddit.com/r/news/comments/p5fcu/arizona_state_university_president_is_in_hot/
+10/31/2014 6:19:32 PM
+http://sports.yahoo.com/news/vikings-bring-back-peterson-despite-073001877--nfl.html?soc_src=mediacontentstory
+10/31/2014 6:19:32 PM
+http://www.nasa.gov/press/2014/april/nasa-space-assets-detect-ocean-inside-saturn-moon/#.Uz21FVcvkpE
+10/31/2014 6:19:32 PM
+http://www.montgomeryadvertiser.com/story/news/crime/2014/08/07/suspect-sought-sexual-assault-asu/13739117/
+10/31/2014 6:19:32 PM
+http://www.abc15.com/news/region-southeast-valley/tempe/asu-police-officer-on-leave-after-proffesor-ersula-ores-arrest
+10/31/2014 6:19:32 PM
+http://www.abc15.com/dpp/news/region_southeast_valley/tempe/dps-detectives-uncover-ecstasy-manufacturing-operation-in-asu-dorm-room
+10/31/2014 6:19:32 PM
+http://toprightnews.com/?p=2006
+10/31/2014 6:19:32 PM
+http://www.foxnews.com/health/2013/07/09/woman-thought-to-be-dead-awakens-just-before-doctors-harvest-organs/
+10/31/2014 6:19:32 PM
+http://www.engadget.com/2010/07/08/asus-ares-cries-havoc-lets-slip-the-gpus-of-war-a-review-round/
+10/31/2014 6:19:32 PM
+http://asunews.asu.edu/20090226_coyotecrisis
+10/31/2014 6:19:32 PM
+http://www.kpho.com/story/24502600/asu-fraternity-suspended-after-offensive-mlk-party
+10/31/2014 6:19:32 PM
+http://www.azcentral.com/sports/asu/articles/2011/11/13/20111113asu-football-dennis-erickson-lisa-love-mars.html
+10/31/2014 6:20:34 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on?q=asu
+10/31/2014 6:20:34 PM
+System.IO.IOException: The process cannot access the file 'C:\Users\John\Desktop\CSE 445\HW3\NewsService\App_Data\log.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendText(String path)
+   at NewsService.NewsService.writeToLog(String infoToWrite) in c:\Users\John\Desktop\CSE 445\HW3\NewsService\NewsService.svc.cs:line 91
+   at NewsService.NewsService.getNews(String newsTopic) in c:\Users\John\Desktop\CSE 445\HW3\NewsService\NewsService.svc.cs:line 31
+10/31/2014 6:20:36 PM
+http://www.startribune.com/local/west/269209151.html
+10/31/2014 6:20:36 PM
+http://www.washingtonpost.com/business/technology/google-challenges-us-gag-order-citing-first-amendment/2013/06/18/96835c72-d832-11e2-a9f2-42ee3912ae0e_story.html
+10/31/2014 6:20:36 PM
+http://www.krem.com/news/Pit-bull-fatally-shot-by-Coeur-dAlene-officer--266483721.html
+10/31/2014 6:20:36 PM
+http://www.washingtonpost.com/sf/investigative/2013/09/08/left-with-nothing/?hpid=z1
+10/31/2014 6:20:36 PM
+http://www.wfaa.com/story/news/health/2014/10/19/troh-duncan-ebola-statement/17575755/
+10/31/2014 6:20:36 PM
+http://www.thedenverchannel.com/news/politics/polls-open-for-colorados-first-ever-recall-elections-at-7-am
+10/31/2014 6:20:36 PM
+http://www.washingtonpost.com/blogs/answer-sheet/wp/2014/03/23/kindergarten-teacher-my-job-is-now-about-tests-and-data-not-children-i-quit/
+10/31/2014 6:20:36 PM
+http://www.foxnews.com/us/2014/03/25/girl-barred-from-school-for-shaving-her-head-to-support-friend-with-cancer/
+10/31/2014 6:20:36 PM
+http://www.nbcnewyork.com/news/local/Gay-Server-Tip-Lifestyle-Receipt-Discrepancy-233040811.html
+10/31/2014 6:20:36 PM
+http://www.wired.com/wiredscience/2013/06/summer-is-lyme-disease-season-but-the-price-of-the-cheap-drug-to-treat-it-just-soared/
+10/31/2014 6:20:36 PM
+http://abcnews.go.com/Blotter/teen-boston-marathon-bomber/story?id=18990057#.UXAxJ6K7KHc
+10/31/2014 6:20:36 PM
+http://www.washingtonpost.com/news/post-nation/wp/2014/08/17/i-just-kept-asking-why-am-i-being-arrested-for-sitting-in-my-aunts-driveway/
+10/31/2014 6:20:36 PM
+http://www.nextgov.com/health/2014/10/hhs-awards-contract-ebola-vaccine-shown-be-100-percent-effective-animal-tests/96536/?oref=nextgov_today_nl
+10/31/2014 6:20:36 PM
+http://thejazzline.com/news/2014/06/christian-mcbride-bass-bow-stolen-tsa/?utm_content=buffer461d0&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+10/31/2014 6:20:36 PM
+http://www.lohud.com/story/news/local/westchester/2014/08/04/sunday-joyride-year-old-boy-drives-bronx-river-parkway/13561435/
+10/31/2014 6:20:36 PM
+http://www.bustle.com/articles/27319-shooters-at-las-vegas-walmart-kill-three-proclaim-the-revolution-has-begun-updated
+10/31/2014 6:20:36 PM
+http://www.necn.com/news/health/Patient-Isolated-for-Ebola-Symptoms-in-Braintree-Mass-278946321.html
+10/31/2014 6:20:36 PM
+http://www.reddit.com/r/news/comments/20twj1/comprehensive_timeline_malaysia_airlines_flight/
+10/31/2014 6:20:36 PM
+http://wtop.com/64/3549542/Fire-rescue-Active-shooter-at-Columbia-Mall
+10/31/2014 6:20:36 PM
+http://www.usatoday.com/story/money/business/2014/05/23/hawaii-raises-minimum-wage-to-10-10-per-hour/9513305/
+10/31/2014 6:20:36 PM
+http://www.adn.com/article/20140921/ktva-reporter-quits-air-reveals-herself-owner-alaska-cannabis-club
+10/31/2014 6:20:36 PM
+http://www.al.com/news/huntsville/index.ssf/2014/09/sparkman_middle_rape_case.html
+10/31/2014 6:20:36 PM
+http://www.washingtonpost.com/blogs/govbeat/wp/2014/04/28/for-the-first-time-the-u-s-high-school-graduation-rate-tops-80-percent-report-finds/?tid=rssfeed
+10/31/2014 6:20:36 PM
+http://green.autoblog.com/2013/06/22/ny-dealers-try-to-make-it-illegal-to-register-a-tesla/
+10/31/2014 6:20:36 PM
+http://www.philly.com/philly/news/20140425_No_criminal_charges_for_narcotics_officers_in__Tainted_Justice__series.html
+10/31/2014 6:21:26 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on?q=alabama
+10/31/2014 6:21:27 PM
+http://www.startribune.com/local/west/269209151.html
+10/31/2014 6:21:27 PM
+http://www.washingtonpost.com/business/technology/google-challenges-us-gag-order-citing-first-amendment/2013/06/18/96835c72-d832-11e2-a9f2-42ee3912ae0e_story.html
+10/31/2014 6:21:27 PM
+http://www.krem.com/news/Pit-bull-fatally-shot-by-Coeur-dAlene-officer--266483721.html
+10/31/2014 6:21:27 PM
+http://www.washingtonpost.com/sf/investigative/2013/09/08/left-with-nothing/?hpid=z1
+10/31/2014 6:21:27 PM
+http://www.wfaa.com/story/news/health/2014/10/19/troh-duncan-ebola-statement/17575755/
+10/31/2014 6:21:27 PM
+http://www.thedenverchannel.com/news/politics/polls-open-for-colorados-first-ever-recall-elections-at-7-am
+10/31/2014 6:21:27 PM
+http://www.washingtonpost.com/blogs/answer-sheet/wp/2014/03/23/kindergarten-teacher-my-job-is-now-about-tests-and-data-not-children-i-quit/
+10/31/2014 6:21:27 PM
+http://www.foxnews.com/us/2014/03/25/girl-barred-from-school-for-shaving-her-head-to-support-friend-with-cancer/
+10/31/2014 6:21:27 PM
+http://www.nbcnewyork.com/news/local/Gay-Server-Tip-Lifestyle-Receipt-Discrepancy-233040811.html
+10/31/2014 6:21:27 PM
+http://www.wired.com/wiredscience/2013/06/summer-is-lyme-disease-season-but-the-price-of-the-cheap-drug-to-treat-it-just-soared/
+10/31/2014 6:21:27 PM
+http://abcnews.go.com/Blotter/teen-boston-marathon-bomber/story?id=18990057#.UXAxJ6K7KHc
+10/31/2014 6:21:27 PM
+http://www.washingtonpost.com/news/post-nation/wp/2014/08/17/i-just-kept-asking-why-am-i-being-arrested-for-sitting-in-my-aunts-driveway/
+10/31/2014 6:21:27 PM
+http://www.nextgov.com/health/2014/10/hhs-awards-contract-ebola-vaccine-shown-be-100-percent-effective-animal-tests/96536/?oref=nextgov_today_nl
+10/31/2014 6:21:27 PM
+http://thejazzline.com/news/2014/06/christian-mcbride-bass-bow-stolen-tsa/?utm_content=buffer461d0&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer
+10/31/2014 6:21:27 PM
+http://www.lohud.com/story/news/local/westchester/2014/08/04/sunday-joyride-year-old-boy-drives-bronx-river-parkway/13561435/
+10/31/2014 6:21:27 PM
+http://www.bustle.com/articles/27319-shooters-at-las-vegas-walmart-kill-three-proclaim-the-revolution-has-begun-updated
+10/31/2014 6:21:27 PM
+http://www.necn.com/news/health/Patient-Isolated-for-Ebola-Symptoms-in-Braintree-Mass-278946321.html
+10/31/2014 6:21:27 PM
+http://www.reddit.com/r/news/comments/20twj1/comprehensive_timeline_malaysia_airlines_flight/
+10/31/2014 6:21:27 PM
+http://wtop.com/64/3549542/Fire-rescue-Active-shooter-at-Columbia-Mall
+10/31/2014 6:21:27 PM
+http://www.usatoday.com/story/money/business/2014/05/23/hawaii-raises-minimum-wage-to-10-10-per-hour/9513305/
+10/31/2014 6:21:28 PM
+http://www.adn.com/article/20140921/ktva-reporter-quits-air-reveals-herself-owner-alaska-cannabis-club
+10/31/2014 6:21:28 PM
+http://www.al.com/news/huntsville/index.ssf/2014/09/sparkman_middle_rape_case.html
+10/31/2014 6:21:28 PM
+http://www.washingtonpost.com/blogs/govbeat/wp/2014/04/28/for-the-first-time-the-u-s-high-school-graduation-rate-tops-80-percent-report-finds/?tid=rssfeed
+10/31/2014 6:21:28 PM
+http://green.autoblog.com/2013/06/22/ny-dealers-try-to-make-it-illegal-to-register-a-tesla/
+10/31/2014 6:21:28 PM
+http://www.philly.com/philly/news/20140425_No_criminal_charges_for_narcotics_officers_in__Tainted_Justice__series.html
+10/31/2014 6:24:22 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on&q=stanford
+10/31/2014 6:24:31 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on&q=nfl
+10/31/2014 6:31:35 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on&q=stanford
+10/31/2014 6:32:15 PM
+APICall: http://reddit.com/r/news/search.json?restrict_sr=on&q=nfl

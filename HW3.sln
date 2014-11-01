@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW3", "HW3\HW3.csproj", "{39F53A92-A1A5-423D-8146-C9C800BB516C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageServiceProject", "HW3\StorageServiceProject.csproj", "{39F53A92-A1A5-423D-8146-C9C800BB516C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW3Tests", "HW3Tests\HW3Tests.csproj", "{682772AC-FEEA-4747-A147-4DE82EFA799D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39F53A92-A1A5-423D-8146-C9C800BB516C} = {39F53A92-A1A5-423D-8146-C9C800BB516C}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsService", "NewsService\NewsService.csproj", "{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{682772AC-FEEA-4747-A147-4DE82EFA799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682772AC-FEEA-4747-A147-4DE82EFA799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682772AC-FEEA-4747-A147-4DE82EFA799D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
