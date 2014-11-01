@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f83f2f3c-96cd-4ba8-8587-ef57c0e2e5ac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49867/StorageService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StorageService.disco" MetadataType="Disco" ID="e4cce5c8-2d9a-48f7-b574-b1b479dbc095" SourceId="1" SourceUrl="http://localhost:49867/StorageService.svc?disco" />
+    <MetadataFile FileName="StorageService.xsd" MetadataType="Schema" ID="9bcef39b-cd23-4b01-8709-7540eee3c33f" SourceId="1" SourceUrl="http://localhost:49867/StorageService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StorageService1.xsd" MetadataType="Schema" ID="0bc7d58f-5680-4ec0-b324-b2bb5954233f" SourceId="1" SourceUrl="http://localhost:49867/StorageService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StorageService2.xsd" MetadataType="Schema" ID="bf8c45fe-eeb2-4b0f-a675-d25cf9e89730" SourceId="1" SourceUrl="http://localhost:49867/StorageService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StorageService.wsdl" MetadataType="Wsdl" ID="990cf256-ebab-4a2b-8d7c-c2f077715bfb" SourceId="1" SourceUrl="http://localhost:49867/StorageService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

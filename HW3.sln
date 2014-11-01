@@ -12,6 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW3Tests", "HW3Tests\HW3Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsService", "NewsService\NewsService.csproj", "{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredServicesClientForm", "RequiredServicesClientForm\RequiredServicesClientForm.csproj", "{9775EDF3-74F6-4AFC-ABF4-26443A3363FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39F53A92-A1A5-423D-8146-C9C800BB516C} = {39F53A92-A1A5-423D-8146-C9C800BB516C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +35,10 @@ Global
 		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4861CAE-AE19-4D55-A3A1-3CD4F305E3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9775EDF3-74F6-4AFC-ABF4-26443A3363FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9775EDF3-74F6-4AFC-ABF4-26443A3363FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9775EDF3-74F6-4AFC-ABF4-26443A3363FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9775EDF3-74F6-4AFC-ABF4-26443A3363FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
