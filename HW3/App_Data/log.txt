@@ -2,3 +2,7 @@
 FilePath: C:\Users\John\Desktop\CSE 445\HW3\HW3\App_Data\130592673717642474test.txt
 10/31/2014 5:18:25 PM
 FilePath: C:\Users\John\Desktop\CSE 445\HW3\HW3\App_Data\130592747058224590test.txt
+10/31/2014 8:22:40 PM
+FilePath: C:\Users\John\Desktop\CSE 445\HW3\HW3\App_Data\130592857607114672test.txt
+10/31/2014 8:23:22 PM
+FilePath: C:\Users\John\Desktop\CSE 445\HW3\HW3\App_Data\130592858020512412matt-prater.png
