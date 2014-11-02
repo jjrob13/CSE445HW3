@@ -1,12 +1,13 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
+using HW3Tests.StockDataPointsService;
 namespace HW3Tests
 {
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        //[TestMethod]
         public void StorageService()
         {
             string fileName = "test.txt";
@@ -25,7 +26,7 @@ namespace HW3Tests
 
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void NewsService()
         {
             string searchTerm = "Arizona State University";
@@ -34,6 +35,21 @@ namespace HW3Tests
 
             string fullSearchURL = restURL + searchTerm;
 
+        }
+
+
+        [TestMethod]
+        public void GetStockDataPointsService()
+        {
+            string STOCK_TICKER = "AAPL";
+            StockDataPointsServiceClient stockDataClient = new StockDataPointsServiceClient();
+
+            StockDataPoints result = stockDataClient.GetStockDataPoints(STOCK_TICKER);
+
+            
+            Assert.IsNotNull(result);
+
+            
         }
     }
 }

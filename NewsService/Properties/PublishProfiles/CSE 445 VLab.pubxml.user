@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAACq811P0Cbikd0JSUn+MkexKW2xdGg//O2oP/v1bkoKUgAAAAAOgAAAAAIAACAAAADCRh3WsT0tJrOZewf1DrMtqLjNRIuCeIavvnOdRkDLiRAAAAARF/sPmhWu9XV49//NMsccQAAAAPDVuRU7KEzG6Tbo//Xd0UmIfCiL1tEyT7KWSz3OdaUIXOIuMbWjeSicIDfR1MSTAb/H3sUijNXJHnZ4w6WsQmk=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.137/JohnRobertson</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/NewsService.dll">
+      <publishTime>11/01/2014 16:22:08</publishTime>
+    </File>
+    <File Include="bin/NewsService.pdb">
+      <publishTime>11/01/2014 16:22:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="NewsService.svc">
+      <publishTime>10/31/2014 21:19:22</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/01/2014 16:37:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/01/2014 16:22:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,59 @@
+11/1/2014 1:34:23 PM
+DateOpenHighLowCloseVolumeEx-DividendSplit RatioAdj. OpenAdj. HighAdj. LowAdj. CloseAdj. Volume
+11/1/2014 1:34:23 PM
+2014-12-31108.0
+11/1/2014 1:34:23 PM
+2014-09-30100.75
+11/1/2014 1:34:23 PM
+2014-06-30645.57
+11/1/2014 1:34:23 PM
+2014-03-31536.74
+11/1/2014 1:34:23 PM
+2013-12-31561.02
+11/1/2014 6:02:41 PM
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at StockDataPointsService.StockDataPointsService.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\StockDataPointsService.svc.cs:line 30
+11/1/2014 6:20:55 PM
+System.FormatException: The string was not recognized as a valid DateTime. There is an unknown word starting at index 0.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at StockDataPointsService.StockDataPointsService.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\StockDataPointsService.svc.cs:line 57
+11/1/2014 6:22:24 PM
+Date to Write: Date
+Price to write: Open
+11/1/2014 6:22:24 PM
+System.FormatException: The string was not recognized as a valid DateTime. There is an unknown word starting at index 0.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s)
+   at StockDataPointsService.StockDataPointsService.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\StockDataPointsService.svc.cs:line 58
+11/1/2014 6:23:35 PM
+Date to Write: 2014-12-31
+Price to write: 108.0
+11/1/2014 6:23:35 PM
+Date to Write: 2014-09-30
+Price to write: 100.75
+11/1/2014 6:23:35 PM
+Date to Write: 2014-06-30
+Price to write: 645.57
+11/1/2014 6:23:35 PM
+Date to Write: 2014-03-31
+Price to write: 536.74
+11/1/2014 6:23:35 PM
+Date to Write: 2013-12-31
+Price to write: 561.02
+11/1/2014 6:24:47 PM
+Date to Write: 2014-12-31
+Price to write: 108.0
+11/1/2014 6:24:47 PM
+Date to Write: 2014-09-30
+Price to write: 100.75
+11/1/2014 6:24:47 PM
+Date to Write: 2014-06-30
+Price to write: 645.57
+11/1/2014 6:24:47 PM
+Date to Write: 2014-03-31
+Price to write: 536.74
+11/1/2014 6:24:47 PM
+Date to Write: 2013-12-31
+Price to write: 561.02

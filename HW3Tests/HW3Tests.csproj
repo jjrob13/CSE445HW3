@@ -53,6 +53,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Service References\StockDataPointsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\StorageService1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -66,6 +71,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Service References\StockDataPointsService\HW3Tests.StockDataPointsService.StockDataPoints.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\StockDataPointsService\StockDataPointsService.wsdl" />
+    <None Include="Service References\StockDataPointsService\StockDataPointsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\StockDataPointsService\StockDataPointsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\StockDataPointsService\StockDataPointsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\StorageService1\HW3Tests.StorageService1.FileUploadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -81,6 +99,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\StockDataPointsService\" />
     <WCFMetadataStorage Include="Service References\StorageService1\" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +113,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\StorageService1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\StockDataPointsService\StockDataPointsService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\StockDataPointsService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\StockDataPointsService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\StockDataPointsService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
