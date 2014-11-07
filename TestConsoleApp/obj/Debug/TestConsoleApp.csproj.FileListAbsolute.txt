@@ -1,6 +1,0 @@
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\bin\Debug\TestConsoleApp.exe.config
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\bin\Debug\TestConsoleApp.exe
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\bin\Debug\TestConsoleApp.pdb
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\obj\Debug\TestConsoleApp.csprojResolveAssemblyReference.cache
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\obj\Debug\TestConsoleApp.exe
-C:\Users\John\Desktop\CSE 445\HW3\TestConsoleApp\obj\Debug\TestConsoleApp.pdb

@@ -9,77 +9,37 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using System.Web;
+using System.Runtime.Caching;
 
 namespace StockDataPointsService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
+    
     public class StockDataPointsService : IStockDataPointsService
     {
+        //global cache variable
+        ObjectCache cache = MemoryCache.Default;
+        
         public StockDataPoints GetStockDataPoints(string stockTicker)
         {
+            StockDataPoints result;
+
+            //stock information is in cache
+            if (cache.Contains(stockTicker))
+            {
+                result = cache[stockTicker] as StockDataPoints;
+            }
+            else
+            {
+                //stock information needs to be created and put in cache
+                //generate the result with api call and parsing
+                result = createResultForTicker(stockTicker);
+
+                //store result in the cache
+                storeObjectInCache(stockTicker, result);
+            }
+
+            return result;
             
-            //number of data points to request from api
-            int NUM_DATA_POINTS = 12;
-
-            string BASE_API = "http://www.quandl.com/api/v1/datasets/WIKI/";
-
-            string API_PARAMS = ".csv?collapse=monthly&rows=" + NUM_DATA_POINTS + "&sort_order=desc&column=4";
-
-            string FULL_API_URL = BASE_API + Uri.EscapeDataString(stockTicker.ToUpper()) + API_PARAMS;
-
-            //maximum number of data points that will be loaded into memory for a given service call
-            try
-            {
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(FULL_API_URL);
-                WebResponse response = request.GetResponse();
-
-                //parse csv file
-                TextFieldParser fieldParser = new TextFieldParser(response.GetResponseStream());
-                fieldParser.TextFieldType = FieldType.Delimited;
-                fieldParser.SetDelimiters(",");
-
-
-                //buffer to store data points
-                StockDataPoint[] dataPointsBuffer = new StockDataPoint[NUM_DATA_POINTS];
-
-                //consume headers of csv file (eg. "Date", "Price")
-                fieldParser.ReadFields();
-
-                //read the file
-                for (int i = 0; i < NUM_DATA_POINTS; i++ )
-                {
-                    //if there is nothing else to read, break
-                    if (fieldParser.EndOfData)
-                        break;
-
-
-                    string[] dataFields = fieldParser.ReadFields();
-
-                    //add new element to dataPointsBuffer
-                    dataPointsBuffer[i] = new StockDataPoint(DateTime.Parse(dataFields[0]), Double.Parse(dataFields[1]));
-
-                }
-
-                //create result object
-                //StockDataPoints(ticker, currentPrice, lastMonthPrice, lastYearPrice)
-                StockDataPoints result = new StockDataPoints(stockTicker, dataPointsBuffer[0].price, dataPointsBuffer[1].price, dataPointsBuffer[11].price);
-
-                //add data points to result
-                result.DataPoints = dataPointsBuffer;
-
-                return result;
-            }
-            //invalid API Call
-            catch (Exception ex)
-            {
-
-
-                //write exception to log and return null
-                writeToLog(ex.ToString());
-
-                return null;
-            }
         }
 
 
@@ -111,6 +71,87 @@ namespace StockDataPointsService
             outputStreamWriter.WriteLine(infoToWrite);
 
             outputStreamWriter.Close();
+        }
+
+        //get object from cache
+        private StockDataPoints getObjectFromCache(string ticker)
+        {
+            StockDataPoints result = cache[ticker] as StockDataPoints;
+            return result;
+        }
+
+        private void storeObjectInCache(string ticker, StockDataPoints objectToWrite)
+        {
+            cache[ticker] = objectToWrite;
+        }
+
+
+
+        //used if object is not in the cache and needs to be created.
+        //returns the stock datapoints for a given stock ticker
+        private StockDataPoints createResultForTicker(string stockTicker)
+        {
+            //number of data points to request from api
+            int NUM_DATA_POINTS = 12;
+
+            string BASE_API = "http://www.quandl.com/api/v1/datasets/WIKI/";
+
+            string API_PARAMS = ".csv?collapse=monthly&rows=" + NUM_DATA_POINTS + "&sort_order=desc&column=4";
+
+            string FULL_API_URL = BASE_API + Uri.EscapeDataString(stockTicker.ToUpper()) + API_PARAMS;
+
+            //maximum number of data points that will be loaded into memory for a given service call
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(FULL_API_URL);
+                WebResponse response = request.GetResponse();
+
+                //parse csv file
+                TextFieldParser fieldParser = new TextFieldParser(response.GetResponseStream());
+                fieldParser.TextFieldType = FieldType.Delimited;
+                fieldParser.SetDelimiters(",");
+
+
+                //buffer to store data points
+                StockDataPoint[] dataPointsBuffer = new StockDataPoint[NUM_DATA_POINTS];
+
+                //consume headers of csv file (eg. "Date", "Price")
+                fieldParser.ReadFields();
+
+                //read the file
+                for (int i = 0; i < NUM_DATA_POINTS; i++)
+                {
+                    //if there is nothing else to read, break
+                    if (fieldParser.EndOfData)
+                        break;
+
+
+                    string[] dataFields = fieldParser.ReadFields();
+
+                    //add new element to dataPointsBuffer
+                    dataPointsBuffer[i] = new StockDataPoint(DateTime.Parse(dataFields[0]), Double.Parse(dataFields[1]));
+
+                }
+
+                //create result object
+                //StockDataPoints(ticker, currentPrice, lastMonthPrice, lastYearPrice)
+                StockDataPoints result = new StockDataPoints(stockTicker, dataPointsBuffer[0].price, dataPointsBuffer[2].price, dataPointsBuffer[11].price);
+
+                //add data points to result
+                result.DataPoints = dataPointsBuffer;
+
+                return result;
+            }
+            //invalid API Call
+            catch (Exception ex)
+            {
+
+
+                //write exception to log and return null
+                writeToLog(ex.ToString());
+
+                return null;
+            }
         }
     }
 }
