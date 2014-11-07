@@ -1,6 +1,6 @@
 C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\bin\Debug\HW3Tests.dll.config
 C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\bin\Debug\HW3Tests.dll
 C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\bin\Debug\HW3Tests.pdb
+C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\obj\Debug\HW3Tests.csprojResolveAssemblyReference.cache
 C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\obj\Debug\HW3Tests.dll
 C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\obj\Debug\HW3Tests.pdb
-C:\Users\John\Desktop\CSE 445\HW3\HW3Tests\obj\Debug\HW3Tests.csprojResolveAssemblyReference.cache

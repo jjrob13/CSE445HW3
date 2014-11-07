@@ -18,17 +18,17 @@ namespace StockDataPointsService
     {
         public StockDataPoints GetStockDataPoints(string stockTicker)
         {
+            
             //number of data points to request from api
-            int NUM_DATA_POINTS = 5;
+            int NUM_DATA_POINTS = 12;
 
             string BASE_API = "http://www.quandl.com/api/v1/datasets/WIKI/";
 
-            string API_PARAMS = ".csv?collapse=quarterly&rows=" + NUM_DATA_POINTS + "&sort_order=desc&column=4";
+            string API_PARAMS = ".csv?collapse=monthly&rows=" + NUM_DATA_POINTS + "&sort_order=desc&column=4";
 
             string FULL_API_URL = BASE_API + Uri.EscapeDataString(stockTicker.ToUpper()) + API_PARAMS;
 
             //maximum number of data points that will be loaded into memory for a given service call
-
             try
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(FULL_API_URL);
@@ -62,13 +62,19 @@ namespace StockDataPointsService
                 }
 
                 //create result object
-                StockDataPoints result = new StockDataPoints(stockTicker, dataPointsBuffer[0].price, dataPointsBuffer[1].price, dataPointsBuffer[4].price);
+                //StockDataPoints(ticker, currentPrice, lastMonthPrice, lastYearPrice)
+                StockDataPoints result = new StockDataPoints(stockTicker, dataPointsBuffer[0].price, dataPointsBuffer[1].price, dataPointsBuffer[11].price);
+
+                //add data points to result
+                result.DataPoints = dataPointsBuffer;
 
                 return result;
             }
             //invalid API Call
             catch (Exception ex)
             {
+
+
                 //write exception to log and return null
                 writeToLog(ex.ToString());
 
@@ -84,6 +90,13 @@ namespace StockDataPointsService
 
             string logPath = BASE_PATH + "\\log.txt";
 
+
+            //if the directory is not found, create it
+            if (!Directory.Exists(BASE_PATH))
+            {
+                Directory.CreateDirectory(BASE_PATH);
+            }
+
             //if the log is not created, create it.
             if (!File.Exists(logPath))
                 outputStreamWriter = File.CreateText(logPath);
@@ -98,19 +111,6 @@ namespace StockDataPointsService
             outputStreamWriter.WriteLine(infoToWrite);
 
             outputStreamWriter.Close();
-        }
-
-        class StockDataPoint
-        {
-            public DateTime date { get; set; }
-            public double price{get; set;}
-
-            public StockDataPoint(DateTime date, double price)
-            {
-                this.date = date;
-                this.price = price;
-
-            }
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
-using HW3Tests.StockDataPointsService;
 namespace HW3Tests
 {
     [TestClass]
@@ -42,10 +41,12 @@ namespace HW3Tests
         public void GetStockDataPointsService()
         {
             string STOCK_TICKER = "AAPL";
-            StockDataPointsServiceClient stockDataClient = new StockDataPointsServiceClient();
+            StockDataPointsService.StockDataPointsServiceClient client = new StockDataPointsService.StockDataPointsServiceClient();
 
-            StockDataPoints result = stockDataClient.GetStockDataPoints(STOCK_TICKER);
+            StockDataPointsService.StockDataPoints result = client.GetStockDataPoints(STOCK_TICKER);
+            
 
+            Console.WriteLine(result.ToString());
             
             Assert.IsNotNull(result);
 

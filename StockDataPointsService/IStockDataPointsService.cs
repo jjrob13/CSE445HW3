@@ -24,13 +24,57 @@ namespace StockDataPointsService
     [DataContract]
     public class StockDataPoints
     {
+        [DataMember]
         public double currentPrice { get; set; }
-        public double lastQuarterPrice { get; set; }
+
+        [DataMember]
+        public double lastMonthPrice { get; set; }
+
+        [DataMember]
         public double lastYearPrice { get; set; }
+
+        [DataMember]
         public string stockTicker { get; set; }
+
+        [DataMember]
+        public StockDataPoint[] DataPoints
+        {
+            get { return dataPointsArray; }
+            set { dataPointsArray = value; }
+        }
+
+        private StockDataPoint [] dataPointsArray;
+
         public StockDataPoints(string stockTicker, double currentPrice, double lastQuarterPrice, double lastYearPrice)
         {
-
+            this.stockTicker = stockTicker; this.currentPrice = currentPrice; this.lastMonthPrice = lastQuarterPrice;
+            this.lastYearPrice = lastYearPrice;
         }
+
+        public override string ToString()
+        {
+            return "stockTicker: " + stockTicker + "currentPrice: " + currentPrice + "; lastQuarterPrice: " + lastMonthPrice +
+                "; lastYearPrice: " + lastYearPrice;
+        }
+
+
+    }
+
+
+    [DataContract]
+     public class StockDataPoint
+        {
+            [DataMember]
+            public DateTime date { get; set; }
+
+            [DataMember]
+            public double price{get; set;}
+
+            public StockDataPoint(DateTime date, double price)
+            {
+                this.date = date;
+                this.price = price;
+
+            }
     }
 }

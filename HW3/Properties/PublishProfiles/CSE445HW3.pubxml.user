@@ -6,27 +6,27 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword />
-    <_PublishTargetUrl>ftp://10.1.11.137/RobertsonStorageService</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAABw75A0A1OTfrMBC6eBZChhtpNsIECij3BJdvXFSN/3+wAAAAAOgAAAAAIAACAAAADhrJfo7f/SrqW08SfZ82Sxfx68BRF3yTgBfei9JUt9FRAAAACvrIkTlJMCLCQv8hzhHK/mQAAAANSiySLJdUZbnCfu9HY5LTBB6y0coLtTD6yNvZJ4niOHb80RAGGN6FJ48X4vUCvdlYlABuCNZFNzbpstZiLcvkk=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/StorageService</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/HW3.dll">
-      <publishTime>11/01/2014 16:44:51</publishTime>
+      <publishTime>11/07/2014 07:22:29</publishTime>
     </File>
     <File Include="bin/HW3.pdb">
-      <publishTime>11/01/2014 16:44:51</publishTime>
+      <publishTime>11/07/2014 07:22:29</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>10/02/2013 12:10:10</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/01/2014 16:44:53</publishTime>
+      <publishTime>11/07/2014 07:24:44</publishTime>
     </File>
     <File Include="StorageService.svc">
       <publishTime>10/31/2014 21:19:21</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/01/2014 16:44:53</publishTime>
+      <publishTime>11/07/2014 07:24:43</publishTime>
     </File>
   </ItemGroup>
 </Project>

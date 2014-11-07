@@ -81,6 +81,13 @@ namespace NewsService
 
             string logPath = UPLOAD_PATH + "\\log.txt";
 
+
+            //if the directory is not found, create it
+            if (!Directory.Exists(UPLOAD_PATH))
+            {
+                Directory.CreateDirectory(UPLOAD_PATH);
+            }
+
             //if the log is not created, create it.
             if (!File.Exists(logPath))
                 outputStreamWriter = File.CreateText(logPath);
