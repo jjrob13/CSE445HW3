@@ -54,25 +54,28 @@ namespace StockChartService
             result.Append("http://www.gxchart.com/service/Drawchart.aspx?type=LINE&Categories=Values:");
 
             //append x values (dates) to the url
-            for(int i = 0; i < pointsToPlot.DataPoints.Length; i++){
-                if(pointsToPlot.DataPoints[i] == null)
-                    break;
-                if(i != 0)
-                    result.Append(",");
+            for(int i = pointsToPlot.DataPoints.Length - 1; i >= 0; i--){
+                if (pointsToPlot.DataPoints[i] != null)
+                {
+                    if (i != pointsToPlot.DataPoints.Length - 1)
+                        result.Append(",");
 
-                result.Append(pointsToPlot.DataPoints[i].date.ToShortDateString());
+                    result.Append(pointsToPlot.DataPoints[i].date.ToShortDateString());
+                }
+
             }
 
             result.Append("&Series1=Values:stock price:");
             //append y values (prices) to the url
-            for(int i = 0; i < pointsToPlot.DataPoints.Length; i++){
-                if(pointsToPlot.DataPoints[i] == null)
-                    break;
-                if(i != 0)
-                    result.Append(",");
+            for (int i = pointsToPlot.DataPoints.Length - 1; i >= 0; i--)
+            {
+                if(pointsToPlot.DataPoints[i] != null){
+                    if(i != pointsToPlot.DataPoints.Length - 1)
+                        result.Append(",");
                 result.Append(pointsToPlot.DataPoints[i].price);
-            }
+                }
 
+            }
 
             result.Append("&title=Stock Price&width=500&height=310&domtitle=Date&rantitle=Amounts in USD&bgc1=88,125,88&bgc2=243,243,243&gbgc1=240,255,210&gbgc2=50,50,80&shadow=1&border=1&values=1&legend=left");
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b58fc3ef-1bcd-427a-9937-4a6e70a1018d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2bd919d0-cf9c-4334-9516-246e3b958bb7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:55016/StockDataPointsService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="StockDataPointsService.wsdl" MetadataType="Wsdl" ID="af819000-21e4-43c5-b4ae-8952bd0a4daa" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?wsdl" />
-    <MetadataFile FileName="StockDataPointsService.xsd" MetadataType="Schema" ID="ea800b19-f50b-47b7-ad37-98eccc666346" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd0" />
-    <MetadataFile FileName="StockDataPointsService1.xsd" MetadataType="Schema" ID="049d1345-d042-4c3e-b736-b9e2819fe5d5" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd1" />
-    <MetadataFile FileName="StockDataPointsService2.xsd" MetadataType="Schema" ID="ea597898-ee0f-4263-91a8-fbc98456e657" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd2" />
-    <MetadataFile FileName="StockDataPointsService.disco" MetadataType="Disco" ID="87671349-8782-4550-88a0-66b88e1737c2" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?disco" />
+    <MetadataFile FileName="StockDataPointsService.wsdl" MetadataType="Wsdl" ID="d5c0eb8e-0d47-46b4-bda4-96982faac4df" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?wsdl" />
+    <MetadataFile FileName="StockDataPointsService.xsd" MetadataType="Schema" ID="4a07fed0-9b49-4092-90dc-3a9fcbdd820a" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StockDataPointsService1.xsd" MetadataType="Schema" ID="eaff4870-5b16-4a9d-b7e0-5c311bc9fe7e" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StockDataPointsService2.xsd" MetadataType="Schema" ID="d83849cf-14df-4ebe-817f-75abc21cd8a3" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StockDataPointsService.disco" MetadataType="Disco" ID="1ee15b0c-97f6-47a3-91b5-7eea29aa30ec" SourceId="1" SourceUrl="http://localhost:55016/StockDataPointsService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
