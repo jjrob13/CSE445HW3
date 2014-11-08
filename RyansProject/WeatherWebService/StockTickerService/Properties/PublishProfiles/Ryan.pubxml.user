@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbA1GCzXBlkWkhMxz+inNuQAAAAACAAAAAAAQZgAAAAEAACAAAAAT41sHxIujYdXh8bW35UpHfkwwB5pekZQ1btbPX/mRjQAAAAAOgAAAAAIAACAAAAAGn2+lraH7KxkJIGJe+q0/62Ca24B+S1M7hB48DEgTBBAAAAD6Zth0xuOm/3tQ4203wjNgQAAAABOYLzsYRPKWih9z3+jkZGISf/qTgwlo3Jj+inyHdin6V+W3gZsZIIeJnWlgt2UE3Q4sUI0s8TSYTMcp2i99PJg=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/StockTickerService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/StockTickerService.dll">
+      <publishTime>11/08/2014 12:54:43</publishTime>
+    </File>
+    <File Include="bin/StockTickerService.pdb">
+      <publishTime>11/08/2014 12:54:43</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 12:54:44</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/05/2014 22:27:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 12:54:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -4,3 +4,9 @@ C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE44
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.dll
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.pdb
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\bin\StockTickerService.dll.config
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\bin\StockTickerService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\bin\StockTickerService.pdb
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.pdb
