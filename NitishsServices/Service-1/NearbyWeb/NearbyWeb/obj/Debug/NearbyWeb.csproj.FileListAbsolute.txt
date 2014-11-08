@@ -1,0 +1,6 @@
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\bin\NearbyWeb.dll.config
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\bin\NearbyWeb.dll
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\bin\NearbyWeb.pdb
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\obj\Debug\NearbyWeb.csprojResolveAssemblyReference.cache
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\obj\Debug\NearbyWeb.dll
+c:\users\nikita\documents\visual studio 2013\Projects\NearbyWeb\NearbyWeb\obj\Debug\NearbyWeb.pdb

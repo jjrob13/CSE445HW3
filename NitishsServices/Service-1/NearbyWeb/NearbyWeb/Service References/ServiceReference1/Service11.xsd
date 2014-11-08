@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:59450/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NearByPlaces" />
+  <xs:element name="GetPlacesData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPlacesDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NearByPlaces" minOccurs="0" name="GetPlacesDataResult" nillable="true" type="q1:ArrayOfPlacesList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPerPlaceDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPerPlaceDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NearByPlaces" minOccurs="0" name="GetPerPlaceDetailsResult" nillable="true" type="q2:ArrayOfPlacesDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
