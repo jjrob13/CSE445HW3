@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherWebService", "WeatherWebService\WeatherWebService.csproj", "{330D7008-B0D9-4C86-9FC0-93953E73F141}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite4", "http://localhost:54326", "{434401C1-10C9-4B1C-B38C-F688B60261EA}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54326"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54326\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54326"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54326\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite4\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{330D7008-B0D9-4C86-9FC0-93953E73F141} = {330D7008-B0D9-4C86-9FC0-93953E73F141}
+		{C232428C-5B03-4F3A-9BAF-E3788FEF08E0} = {C232428C-5B03-4F3A-9BAF-E3788FEF08E0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalHazardsService", "..\NaturalHazardsService\NaturalHazardsService\NaturalHazardsService.csproj", "{C232428C-5B03-4F3A-9BAF-E3788FEF08E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynonymWebService", "SynonymWebService\SynonymWebService.csproj", "{E2E808D4-8F6A-4B80-B8D1-D3869DDD1F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerService", "StockTickerService\StockTickerService.csproj", "{77389E2E-6467-49C6-8824-D6CA7C889A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330D7008-B0D9-4C86-9FC0-93953E73F141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330D7008-B0D9-4C86-9FC0-93953E73F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330D7008-B0D9-4C86-9FC0-93953E73F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330D7008-B0D9-4C86-9FC0-93953E73F141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434401C1-10C9-4B1C-B38C-F688B60261EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434401C1-10C9-4B1C-B38C-F688B60261EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434401C1-10C9-4B1C-B38C-F688B60261EA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{434401C1-10C9-4B1C-B38C-F688B60261EA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C232428C-5B03-4F3A-9BAF-E3788FEF08E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C232428C-5B03-4F3A-9BAF-E3788FEF08E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C232428C-5B03-4F3A-9BAF-E3788FEF08E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C232428C-5B03-4F3A-9BAF-E3788FEF08E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E808D4-8F6A-4B80-B8D1-D3869DDD1F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E808D4-8F6A-4B80-B8D1-D3869DDD1F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E808D4-8F6A-4B80-B8D1-D3869DDD1F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E808D4-8F6A-4B80-B8D1-D3869DDD1F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77389E2E-6467-49C6-8824-D6CA7C889A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77389E2E-6467-49C6-8824-D6CA7C889A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77389E2E-6467-49C6-8824-D6CA7C889A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77389E2E-6467-49C6-8824-D6CA7C889A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

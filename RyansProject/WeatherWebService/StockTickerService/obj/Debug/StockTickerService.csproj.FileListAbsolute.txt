@@ -1,0 +1,6 @@
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\bin\StockTickerService.dll.config
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\bin\StockTickerService.dll
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\bin\StockTickerService.pdb
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.dll
+C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\StockTickerService\obj\Debug\StockTickerService.pdb

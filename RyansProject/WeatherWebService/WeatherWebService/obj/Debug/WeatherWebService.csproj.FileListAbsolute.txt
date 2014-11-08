@@ -1,0 +1,12 @@
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll.config
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\bin\WeatherWebService.pdb
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.dll
+C:\Users\Ryan\Google Drive\CSE 445\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.pdb
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll.config
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\bin\WeatherWebService.pdb
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.dll
+C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.pdb
