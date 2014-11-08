@@ -1,0 +1,12 @@
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.csprojResolveAssemblyReference.cache
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll.config
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\bin\NearByPlaces.pdb
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.dll
+c:\users\nikita\documents\visual studio 2013\Projects\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.pdb
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll.config
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.pdb
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.csprojResolveAssemblyReference.cache
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.dll
+C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.pdb

@@ -1,0 +1,11 @@
+C:\Users\Ravin\Documents\Visual Studio 2012\Projects\ElectiveServices\Hotel\NearByHotelService\HotelApplication\bin\HotelApplication.dll
+C:\Users\Ravin\Documents\Visual Studio 2012\Projects\ElectiveServices\Hotel\NearByHotelService\HotelApplication\bin\HotelApplication.pdb
+C:\Users\Ravin\Documents\Visual Studio 2012\Projects\ElectiveServices\Hotel\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.dll
+C:\Users\Ravin\Documents\Visual Studio 2012\Projects\ElectiveServices\Hotel\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.pdb
+C:\Users\Ravin\Documents\Visual Studio 2012\Projects\ElectiveServices\Hotel\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.csprojResolveAssemblyReference.cache
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\bin\HotelApplication.dll.config
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\bin\HotelApplication.dll
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\bin\HotelApplication.pdb
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.csprojResolveAssemblyReference.cache
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.dll
+C:\Users\Nikita\Desktop\NearByHotelService\HotelApplication\obj\Debug\HotelApplication.pdb

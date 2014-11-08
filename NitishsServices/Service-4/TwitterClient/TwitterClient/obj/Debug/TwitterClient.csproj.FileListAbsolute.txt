@@ -1,0 +1,6 @@
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\bin\TwitterClient.dll.config
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\bin\TwitterClient.dll
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\bin\TwitterClient.pdb
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\obj\Debug\TwitterClient.csprojResolveAssemblyReference.cache
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\obj\Debug\TwitterClient.dll
+C:\Users\Nikita\Documents\Visual Studio 2013\Projects\TwitterClient\TwitterClient\obj\Debug\TwitterClient.pdb

@@ -1,0 +1,5 @@
+C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\bin\NearByHotelService.dll.config
+C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\bin\NearByHotelService.dll
+C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\bin\NearByHotelService.pdb
+C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.dll
+C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.pdb
