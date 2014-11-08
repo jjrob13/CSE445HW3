@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAAAtYgILrAsVHi9PXVLuVaakr0R3B+rZlK/cPbOTlIFxMwAAAAAOgAAAAAIAACAAAAC57uzJGKOhKUHcqWRsmNMFvhcTS9IJAWDU65T+cPbC0hAAAABd2lp4rglU2pRGdhQLu/d1QAAAAJn7m7JRsaWG4oIokyCpQWPd3LXwTksOU0mE0ELhoGX27G9yBthh1BtauNf98QrLNEpPSlFQIg4ftGglNYd1ZGU=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/StockDescription</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/StockDescriptionService.dll">
+      <publishTime>11/07/2014 19:35:28</publishTime>
+    </File>
+    <File Include="bin/StockDescriptionService.pdb">
+      <publishTime>11/07/2014 19:35:28</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/07/2014 19:35:30</publishTime>
+    </File>
+    <File Include="Service References/StockDataPoints/StockDescriptionService.StockDataPoints.StockDataPoints.datasource">
+      <publishTime>11/07/2014 18:44:59</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/07/2014 09:00:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/07/2014 19:35:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

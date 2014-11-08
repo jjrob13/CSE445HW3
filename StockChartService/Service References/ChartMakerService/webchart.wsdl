@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="MakeChart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Height" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Legend" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Labeltitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Datatitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BackgroundColor1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BackgroundColor2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GraphBackgroundColor1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GraphBackgroundColor2" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Markers" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Border" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Shadow" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Alpha" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Codec" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeChartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MakeChartResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MakeChartSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeChart" />
+  </wsdl:message>
+  <wsdl:message name="MakeChartSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeChartResponse" />
+  </wsdl:message>
+  <wsdl:portType name="webchartSoap">
+    <wsdl:operation name="MakeChart">
+      <wsdl:input message="tns:MakeChartSoapIn" />
+      <wsdl:output message="tns:MakeChartSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="webchartSoap" type="tns:webchartSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakeChart">
+      <soap:operation soapAction="http://tempuri.org/MakeChart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="webchartSoap12" type="tns:webchartSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakeChart">
+      <soap12:operation soapAction="http://tempuri.org/MakeChart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="webchart">
+    <wsdl:port name="webchartSoap" binding="tns:webchartSoap">
+      <soap:address location="http://www.gxchart.com/service/webchart.asmx" />
+    </wsdl:port>
+    <wsdl:port name="webchartSoap12" binding="tns:webchartSoap12">
+      <soap12:address location="http://www.gxchart.com/service/webchart.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

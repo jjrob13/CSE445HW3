@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CFF29C08-F74B-4B34-944B-ED651E716A43}</ProjectGuid>
+    <ProjectGuid>{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StockDescriptionService</RootNamespace>
-    <AssemblyName>StockDescriptionService</AssemblyName>
+    <RootNamespace>StockChartService</RootNamespace>
+    <AssemblyName>StockChartService</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseIISExpress>true</UseIISExpress>
@@ -60,7 +60,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\PublishProfiles\CSE445.pubxml" />
+    <None Include="Service References\ChartMakerService\configuration91.svcinfo" />
+    <None Include="Service References\ChartMakerService\configuration.svcinfo" />
+    <None Include="Service References\ChartMakerService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\StockDataPoints\StockChartService.StockDataPoints.StockDataPoints.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\StockDataPoints\StockDataPointsService.disco" />
     <None Include="Service References\StockDataPoints\configuration91.svcinfo" />
     <None Include="Service References\StockDataPoints\configuration.svcinfo" />
@@ -70,6 +78,9 @@
     </None>
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
+    <Content Include="Service References\ChartMakerService\StockChartService.ChartMakerService.MakeChartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\StockDataPoints\StockDataPointsService.wsdl" />
     <None Include="Service References\StockDataPoints\StockDataPointsService.xsd">
       <SubType>Designer</SubType>
@@ -80,11 +91,13 @@
     <None Include="Service References\StockDataPoints\StockDataPointsService2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Service References\StockDataPoints\StockDescriptionService.StockDataPoints.StockDataPoints.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Service References\ChartMakerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\StockDataPoints\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -100,6 +113,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\ChartMakerService\webchart.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,6 +125,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ChartMakerService\" />
     <WCFMetadataStorage Include="Service References\StockDataPoints\" />
   </ItemGroup>
   <PropertyGroup>
@@ -126,9 +141,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50927</DevelopmentServerPort>
+          <DevelopmentServerPort>52334</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50927/</IISUrl>
+          <IISUrl>http://localhost:52334/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

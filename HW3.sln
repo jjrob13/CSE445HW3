@@ -22,6 +22,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockDataPointsService", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockDescriptionService", "StockDescriptionService\StockDescriptionService.csproj", "{CFF29C08-F74B-4B34-944B-ED651E716A43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockChartService", "StockChartService\StockChartService.csproj", "{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AA4080C-ED42-4C21-B1BA-76D48369F5FE} = {1AA4080C-ED42-4C21-B1BA-76D48369F5FE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +57,10 @@ Global
 		{CFF29C08-F74B-4B34-944B-ED651E716A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF29C08-F74B-4B34-944B-ED651E716A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF29C08-F74B-4B34-944B-ED651E716A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF9F46E-187E-41C1-9C8C-02FC4E29492A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
