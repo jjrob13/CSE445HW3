@@ -1,0 +1,3 @@
+11/7/2014 7:30:41 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 71
