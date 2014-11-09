@@ -7,7 +7,7 @@ using System.ServiceModel.Web;
 using System.Text;
 using StockChartService.ChartMakerService;
 using System.Runtime.Caching;
-using StockChartService.StockDataPoints;
+using StockChartService.DataPointService;
 using StockChartService.GetTickerService;
 
 namespace StockChartService
@@ -56,7 +56,7 @@ namespace StockChartService
         private string getChartAPICall(string stockTicker){
             //create service proxies
             StockDataPointsServiceClient stockDataClient = new StockDataPointsServiceClient();
-            StockDataPoints.StockDataPoints pointsToPlot = stockDataClient.GetStockDataPoints(stockTicker);
+            StockDataPoints pointsToPlot = stockDataClient.GetStockDataPoints(stockTicker);
             
             StringBuilder result = new StringBuilder();
             result.Append("http://www.gxchart.com/service/Drawchart.aspx?type=LINE&Categories=Values:");

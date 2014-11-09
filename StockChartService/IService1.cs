@@ -14,7 +14,7 @@ namespace StockChartService
     {
 
         [OperationContract]
-        [WebGet(UriTemplate="/getStockChart?company={companyName}")]
+        [WebGet(UriTemplate="/getStockChart?company={companyName}", ResponseFormat=WebMessageFormat.Json)]
         string getStockChartURL(string companyName);
 
     }

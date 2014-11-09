@@ -1,0 +1,21 @@
+ <services>
+      <service name="RestWebApp.Service1" behaviorConfiguration="Meta">
+        <endpoint name="rest" 
+                  address=""
+                  binding="webHttpBinding"
+                  contract="RestWebApp.Service1"
+                  behaviorConfiguration="REST" />
+
+
+<behaviors>
+      <endpointBehaviors>
+        <behavior name="REST">
+          <webHttp/>
+        </behavior>
+      </endpointBehaviors>
+      <serviceBehaviors>
+        <behavior name="Meta">
+          <serviceMetadata httpGetEnabled="true" />
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>

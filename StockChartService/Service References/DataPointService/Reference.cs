@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StockChartService.StockDataPoints {
+namespace StockChartService.DataPointService {
     using System.Runtime.Serialization;
     using System;
     
@@ -23,7 +23,7 @@ namespace StockChartService.StockDataPoints {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private StockChartService.StockDataPoints.StockDataPoint[] DataPointsField;
+        private StockChartService.DataPointService.StockDataPoint[] DataPointsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private double currentPriceField;
@@ -48,7 +48,7 @@ namespace StockChartService.StockDataPoints {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public StockChartService.StockDataPoints.StockDataPoint[] DataPoints {
+        public StockChartService.DataPointService.StockDataPoint[] DataPoints {
             get {
                 return this.DataPointsField;
             }
@@ -184,23 +184,23 @@ namespace StockChartService.StockDataPoints {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="StockDataPoints.IStockDataPointsService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="DataPointService.IStockDataPointsService")]
     public interface IStockDataPointsService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IStockDataPointsService/GetStockDataPoints", ReplyAction="http://tempuri.org/IStockDataPointsService/GetStockDataPointsResponse")]
-        StockChartService.StockDataPoints.StockDataPoints GetStockDataPoints(string stockTicker);
+        StockChartService.DataPointService.StockDataPoints GetStockDataPoints(string stockTicker);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IStockDataPointsService/GetStockDataPoints", ReplyAction="http://tempuri.org/IStockDataPointsService/GetStockDataPointsResponse")]
-        System.Threading.Tasks.Task<StockChartService.StockDataPoints.StockDataPoints> GetStockDataPointsAsync(string stockTicker);
+        System.Threading.Tasks.Task<StockChartService.DataPointService.StockDataPoints> GetStockDataPointsAsync(string stockTicker);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IStockDataPointsServiceChannel : StockChartService.StockDataPoints.IStockDataPointsService, System.ServiceModel.IClientChannel {
+    public interface IStockDataPointsServiceChannel : StockChartService.DataPointService.IStockDataPointsService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class StockDataPointsServiceClient : System.ServiceModel.ClientBase<StockChartService.StockDataPoints.IStockDataPointsService>, StockChartService.StockDataPoints.IStockDataPointsService {
+    public partial class StockDataPointsServiceClient : System.ServiceModel.ClientBase<StockChartService.DataPointService.IStockDataPointsService>, StockChartService.DataPointService.IStockDataPointsService {
         
         public StockDataPointsServiceClient() {
         }
@@ -221,11 +221,11 @@ namespace StockChartService.StockDataPoints {
                 base(binding, remoteAddress) {
         }
         
-        public StockChartService.StockDataPoints.StockDataPoints GetStockDataPoints(string stockTicker) {
+        public StockChartService.DataPointService.StockDataPoints GetStockDataPoints(string stockTicker) {
             return base.Channel.GetStockDataPoints(stockTicker);
         }
         
-        public System.Threading.Tasks.Task<StockChartService.StockDataPoints.StockDataPoints> GetStockDataPointsAsync(string stockTicker) {
+        public System.Threading.Tasks.Task<StockChartService.DataPointService.StockDataPoints> GetStockDataPointsAsync(string stockTicker) {
             return base.Channel.GetStockDataPointsAsync(stockTicker);
         }
     }
