@@ -1,0 +1,5 @@
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.dll.config
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.pdb
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\SynonymWebService\obj\Release\SynonymWebService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\SynonymWebService\obj\Release\SynonymWebService.pdb

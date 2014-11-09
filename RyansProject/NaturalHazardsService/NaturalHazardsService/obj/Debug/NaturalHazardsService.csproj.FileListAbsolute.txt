@@ -10,9 +10,18 @@ C:\Users\Ryan\Desktop\CSE445HW2P2\NaturalHazardsService\NaturalHazardsService\bi
 C:\Users\Ryan\Desktop\CSE445HW2P2\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Desktop\CSE445HW2P2\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.dll
 C:\Users\Ryan\Desktop\CSE445HW2P2\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.pdb
+<<<<<<< HEAD
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.dll.config
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.dll
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.pdb
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.csprojResolveAssemblyReference.cache
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.dll
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.pdb
+=======
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.dll.config
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\bin\NaturalHazardsService.pdb
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\NaturalHazardsService\NaturalHazardsService\obj\Debug\NaturalHazardsService.pdb
+>>>>>>> fcecb14f2816fabe8f50c7e88816df71c8ed88c3

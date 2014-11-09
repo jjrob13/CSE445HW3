@@ -73,7 +73,11 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Properties\PublishProfiles\445.pubxml" />
+=======
+    <None Include="Properties\PublishProfiles\Ryan.pubxml" />
+>>>>>>> fcecb14f2816fabe8f50c7e88816df71c8ed88c3
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbA1GCzXBlkWkhMxz+inNuQAAAAACAAAAAAAQZgAAAAEAACAAAADnHm0xUKnoU2MMlK/hpfOBTiMNYvGEQuYvW5HFIOF+ogAAAAAOgAAAAAIAACAAAAD/MOfN+Ks6NTaVTU41+ZUdA6cYDgb2pzUGR1EmnoET1BAAAAB+oF4wfvSuumKWldoZOOXIQAAAAMbOaBhXFV9j/HntxRmvhkhw2C0dB+kSBGQh5g6VsVbinJKoKLeP6RCi7NZ2eG/kD4vhMoHp1P9NHIAfpJcFciA=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/SynonymWebService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/SynonymWebService.dll">
+      <publishTime>11/08/2014 12:55:49</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 12:55:50</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/05/2014 21:39:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 12:55:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -74,21 +74,35 @@ namespace SynonymWebService
                 }
                 else if(result[i].Equals('('))
                 {
-                        i += 8;
-                        antonyms += holder + " ";
+                    while(!(result[i].Equals(')')))
+                    {
+                        i++;
+                    }
+                        //i += 8;
+                        //antonyms += holder + " ";
                         holder = "";
               
-                    holder += result[i];
+                    //holder += result[i];
                 }
                 else
                 {
                     holder += result[i];
                 }
             }
+
+           
+
             message.Message = synonyms;
             Random rnd1 = new Random();
-            int random = rnd1.Next(s_num-1);
-            message.Message = (string)myAL[random];
+            if(s_num != 0)
+            {
+                int random = rnd1.Next(s_num); 
+                message.Message = (string)myAL[random];
+            }
+            else
+            {
+                message.Message = "";
+            }
             return message;
          
         }

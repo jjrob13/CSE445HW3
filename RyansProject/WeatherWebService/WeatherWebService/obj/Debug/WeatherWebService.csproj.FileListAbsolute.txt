@@ -10,9 +10,18 @@ C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\bin\Weathe
 C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.dll
 C:\Users\Ryan\Desktop\CSE445HW2P2\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.pdb
+<<<<<<< HEAD
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll.config
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.pdb
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.dll
 C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.pdb
+=======
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll.config
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\bin\WeatherWebService.pdb
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.dll
+C:\Users\Ryan\Desktop\HW3Services\CSE445HW3\RyansProject\WeatherWebService\WeatherWebService\obj\Debug\WeatherWebService.pdb
+>>>>>>> fcecb14f2816fabe8f50c7e88816df71c8ed88c3

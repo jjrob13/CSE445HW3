@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbA1GCzXBlkWkhMxz+inNuQAAAAACAAAAAAAQZgAAAAEAACAAAAD89BUw6mVLbj83AIg/hob28PQbc5oWAuUcQ6PkKAksRgAAAAAOgAAAAAIAACAAAABoLOe12cKpXx1xDzhGC4BQ/H7ftD/JGDsBMD6O4AWYJBAAAAB7hlZXDc/DU62qCu+B1z72QAAAAEEnc8CQF1qY/YWPX/PYK1AMVzJGeMogNwIPhkFu+tAvF4hXFE8+1vW9+sJvO6gv0Hkt5UxftQLS4jC6XLzbm6I=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/NaturalHazardsService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/NaturalHazardsService.dll">
+      <publishTime>11/08/2014 12:50:57</publishTime>
+    </File>
+    <File Include="bin/NaturalHazardsService.pdb">
+      <publishTime>11/08/2014 12:50:57</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 12:50:59</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/01/2014 18:55:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 12:50:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
