@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAAAK2PPTCn9lajY2hHlq5UZVw3/+dMveDqPIgZ7D0pYvsQAAAAAOgAAAAAIAACAAAABphjVSKQU2k/e4W67b+d7BwjWWI4Q+Eym+zVh0PMcQKxAAAAAdO+Pdj0HfepdNy2jxHnPZQAAAAIuyOeanxu5e6K4KgSQ/42ovLC1upb7iV++qrdKm50+FeLyJATAufz3m7VEDQ26HX/IzcUGICU0KUIVrl0BvEvk=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/PlacesReviewService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/NearByHotelService.dll">
+      <publishTime>11/08/2014 11:22:06</publishTime>
+    </File>
+    <File Include="bin/NearByHotelService.pdb">
+      <publishTime>11/08/2014 11:22:06</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 11:22:07</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/08/2014 11:15:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 11:22:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

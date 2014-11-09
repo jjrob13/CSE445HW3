@@ -10,3 +10,9 @@ C:\Users\Nikita\Desktop\NBHW3-Complete\Service-3\IncidentUpdates\QuoteofTheDay\b
 C:\Users\Nikita\Desktop\NBHW3-Complete\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\TrafficService.csprojResolveAssemblyReference.cache
 C:\Users\Nikita\Desktop\NBHW3-Complete\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\QuoteofTheDay.dll
 C:\Users\Nikita\Desktop\NBHW3-Complete\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\QuoteofTheDay.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\bin\QuoteofTheDay.dll.config
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\bin\QuoteofTheDay.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\bin\QuoteofTheDay.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\TrafficService.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\QuoteofTheDay.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-3\IncidentUpdates\QuoteofTheDay\obj\Debug\QuoteofTheDay.pdb

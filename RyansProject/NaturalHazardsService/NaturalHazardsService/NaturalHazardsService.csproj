@@ -59,6 +59,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\445.pubxml" />
     <None Include="Service References\WebtoString\Service.disco" />
     <None Include="Service References\WebtoString\configuration91.svcinfo" />
     <None Include="Service References\WebtoString\configuration.svcinfo" />

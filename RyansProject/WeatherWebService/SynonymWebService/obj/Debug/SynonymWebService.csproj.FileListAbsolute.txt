@@ -4,3 +4,9 @@ C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE44
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.csprojResolveAssemblyReference.cache
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.dll
 C:\Users\Ryan\Google Drive\CSE 445\CSE445HW3P2-PRINSEN\CSE445HW3P2-PRINSEN\CSE445HW3P2\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.pdb
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.dll.config
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.dll
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\bin\SynonymWebService.pdb
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.dll
+C:\Users\John\Desktop\CSE 445\HW3\RyansProject\WeatherWebService\SynonymWebService\obj\Debug\SynonymWebService.pdb

@@ -3,4 +3,3 @@ C:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\bin\StockDescriptionSe
 C:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\bin\StockDescriptionService.pdb
 C:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\obj\Debug\StockDescriptionService.dll
 C:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\obj\Debug\StockDescriptionService.pdb
-C:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\obj\Debug\StockDescriptionService.csprojResolveAssemblyReference.cache

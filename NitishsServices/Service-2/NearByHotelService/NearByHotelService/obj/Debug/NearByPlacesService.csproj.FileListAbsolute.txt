@@ -3,3 +3,9 @@ C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\bin\NearByHotelSer
 C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\bin\NearByHotelService.pdb
 C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.dll
 C:\Users\Nikita\Desktop\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\bin\NearByHotelService.dll.config
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\bin\NearByHotelService.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\bin\NearByHotelService.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\obj\Debug\NearByPlacesService.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-2\NearByHotelService\NearByHotelService\obj\Debug\NearByHotelService.pdb

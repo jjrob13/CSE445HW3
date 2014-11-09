@@ -61,31 +61,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\CSE445.pubxml" />
-    <None Include="Service References\StockDataPoints\StockDataPointsService.disco" />
-    <None Include="Service References\StockDataPoints\configuration91.svcinfo" />
-    <None Include="Service References\StockDataPoints\configuration.svcinfo" />
-    <None Include="Service References\StockDataPoints\Reference.svcmap">
+    <None Include="Service References\DataPointsService\StockDataPointsService.disco" />
+    <None Include="Service References\DataPointsService\configuration91.svcinfo" />
+    <None Include="Service References\DataPointsService\configuration.svcinfo" />
+    <None Include="Service References\DataPointsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\GetStockTickerService\Service1.disco" />
+    <None Include="Service References\GetStockTickerService\configuration91.svcinfo" />
+    <None Include="Service References\GetStockTickerService\configuration.svcinfo" />
+    <None Include="Service References\GetStockTickerService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
-    <None Include="Service References\StockDataPoints\StockDataPointsService.wsdl" />
-    <None Include="Service References\StockDataPoints\StockDataPointsService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\StockDataPoints\StockDataPointsService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\StockDataPoints\StockDataPointsService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="Service References\StockDataPoints\StockDescriptionService.StockDataPoints.StockDataPoints.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service References\StockDataPoints\Reference.cs">
+    <Compile Include="Service References\DataPointsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GetStockTickerService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -100,6 +99,26 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\DataPointsService\StockDataPointsService.wsdl" />
+    <None Include="Service References\DataPointsService\StockDataPointsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataPointsService\StockDataPointsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataPointsService\StockDataPointsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\DataPointsService\StockDescriptionService.DataPointsService.StockDataPoints.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\GetStockTickerService\Service1.wsdl" />
+    <None Include="Service References\GetStockTickerService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GetStockTickerService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +130,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\StockDataPoints\" />
+    <WCFMetadataStorage Include="Service References\DataPointsService\" />
+    <WCFMetadataStorage Include="Service References\GetStockTickerService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

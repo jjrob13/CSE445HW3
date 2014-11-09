@@ -8,6 +8,8 @@ using System.Text;
 using StockChartService.ChartMakerService;
 using System.Runtime.Caching;
 using StockChartService.StockDataPoints;
+using StockChartService.GetTickerService;
+
 namespace StockChartService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
@@ -42,7 +44,13 @@ namespace StockChartService
         private string getStockTickerForCompanyName(string companyName)
         {
             //returns stock ticker if company name is valid, else it returns null
-            return companyName;
+            Service1Client getTickerClient = new Service1Client();
+
+            string ticker = getTickerClient.GetTicker(companyName);
+            if (ticker.Equals(""))
+                ticker = null;
+
+            return ticker;
         }
 
         private string getChartAPICall(string stockTicker){
@@ -62,20 +70,23 @@ namespace StockChartService
 
                     result.Append(pointsToPlot.DataPoints[i].date.ToShortDateString());
                 }
-
+               
             }
 
             result.Append("&Series1=Values:stock price:");
             //append y values (prices) to the url
             for (int i = pointsToPlot.DataPoints.Length - 1; i >= 0; i--)
             {
-                if(pointsToPlot.DataPoints[i] != null){
-                    if(i != pointsToPlot.DataPoints.Length - 1)
-                        result.Append(",");
-                result.Append(pointsToPlot.DataPoints[i].price);
-                }
+                if (pointsToPlot.DataPoints[i] != null)
+                {
 
+                }
+                if(i != pointsToPlot.DataPoints.Length - 1)
+                    result.Append(",");
+
+                result.Append(pointsToPlot.DataPoints[i].price);
             }
+
 
             result.Append("&title=Stock Price&width=500&height=310&domtitle=Date&rantitle=Amounts in USD&bgc1=88,125,88&bgc2=243,243,243&gbgc1=240,255,210&gbgc2=50,50,80&shadow=1&border=1&values=1&legend=left");
 

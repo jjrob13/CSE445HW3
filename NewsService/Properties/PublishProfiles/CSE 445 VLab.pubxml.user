@@ -11,22 +11,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/NewsService.dll">
-      <publishTime>11/07/2014 07:22:30</publishTime>
+      <publishTime>11/08/2014 17:01:16</publishTime>
     </File>
     <File Include="bin/NewsService.pdb">
-      <publishTime>11/07/2014 07:22:30</publishTime>
+      <publishTime>11/08/2014 17:01:16</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>10/02/2013 12:10:10</publishTime>
     </File>
     <File Include="NewsService.svc">
-      <publishTime>10/31/2014 21:19:22</publishTime>
+      <publishTime>11/08/2014 09:51:42</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/07/2014 07:22:40</publishTime>
+      <publishTime>11/08/2014 17:01:17</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/07/2014 07:22:39</publishTime>
+      <publishTime>11/08/2014 17:01:17</publishTime>
     </File>
   </ItemGroup>
 </Project>

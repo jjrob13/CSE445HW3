@@ -1,7 +1,0 @@
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\bin\NewsService.dll.config
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\bin\NewsService.dll
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\bin\NewsService.pdb
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\bin\Newtonsoft.Json.dll
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\obj\Debug\NewsService.csprojResolveAssemblyReference.cache
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\obj\Debug\NewsService.dll
-C:\Users\John\Desktop\CSE 445\HW3\NewsService\obj\Debug\NewsService.pdb

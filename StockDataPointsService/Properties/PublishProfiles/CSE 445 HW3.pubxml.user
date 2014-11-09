@@ -7,23 +7,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAABLJPsY2z8KIvdFTeNVw+rdzq3t/gHXkHruilgy9Z17JgAAAAAOgAAAAAIAACAAAAASa5jZt09SXYoBZa38Wq0FqmBXPXJVSUnTdyGPJYQbPxAAAADWTnu4Q/ol8hyh5KCPdKIKQAAAACZWfSwu5cemCrngNHuV96kGv+ollZ36uNx0P6cEeyHuLJBSBMsldOWv7O5u/mLVXgiE4+cBfQyk35iaL9N7zfQ=</EncryptedPassword>
-    <_PublishTargetUrl>ftp://10.1.11.192/StockDataPoints</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://10.1.11.192/StockDataPointsService</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/StockDataPointsService.dll">
-      <publishTime>11/07/2014 07:51:48</publishTime>
+      <publishTime>11/08/2014 09:55:24</publishTime>
     </File>
     <File Include="bin/StockDataPointsService.pdb">
-      <publishTime>11/07/2014 07:51:48</publishTime>
+      <publishTime>11/08/2014 09:55:24</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/07/2014 07:51:51</publishTime>
+      <publishTime>11/08/2014 11:39:17</publishTime>
     </File>
     <File Include="StockDataPointsService.svc">
-      <publishTime>11/01/2014 13:29:33</publishTime>
+      <publishTime>11/08/2014 09:51:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/07/2014 07:26:25</publishTime>
+      <publishTime>11/08/2014 11:39:16</publishTime>
     </File>
   </ItemGroup>
 </Project>

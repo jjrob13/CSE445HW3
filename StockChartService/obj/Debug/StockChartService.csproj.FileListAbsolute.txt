@@ -1,6 +1,0 @@
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\bin\StockChartService.dll.config
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\bin\StockChartService.dll
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\bin\StockChartService.pdb
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\obj\Debug\StockChartService.csprojResolveAssemblyReference.cache
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\obj\Debug\StockChartService.dll
-C:\Users\John\Desktop\CSE 445\HW3\StockChartService\obj\Debug\StockChartService.pdb

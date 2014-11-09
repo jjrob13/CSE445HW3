@@ -1,6 +1,0 @@
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\bin\StockDataPointsService.dll.config
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\bin\StockDataPointsService.dll
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\bin\StockDataPointsService.pdb
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\obj\Debug\StockDataPointsService.csprojResolveAssemblyReference.cache
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\obj\Debug\StockDataPointsService.dll
-C:\Users\John\Desktop\CSE 445\HW3\StockDataPointsService\obj\Debug\StockDataPointsService.pdb

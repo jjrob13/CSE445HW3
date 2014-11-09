@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAAA3EMbUgoYYvi1r0+iZuV0uYazmBmofuCKaNRW5XfqH2QAAAAAOgAAAAAIAACAAAAAdyj5kKcGhDwxUvDnU/RyVKaVbPmHrdk6/7lrllZ7tuBAAAAB7LighasQNB8NJedAYfxHAQAAAAA4hTCCD0O5I/t2pCTeqXkUWOxilqDM3LHsuIoqhhm2iipbibSdmJGrirpkAgQto+35Wh4ygPtC0oprjNqoj/Do=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/StockChartService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/StockChartService.dll">
+      <publishTime>11/08/2014 11:41:23</publishTime>
+    </File>
+    <File Include="bin/StockChartService.pdb">
+      <publishTime>11/08/2014 11:41:23</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 11:41:24</publishTime>
+    </File>
+    <File Include="Service References/ChartMakerService/StockChartService.ChartMakerService.MakeChartResponse.datasource">
+      <publishTime>11/08/2014 09:51:42</publishTime>
+    </File>
+    <File Include="Service References/StockDataPoints/StockChartService.StockDataPoints.StockDataPoints.datasource">
+      <publishTime>11/08/2014 09:52:39</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/08/2014 09:51:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 10:52:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

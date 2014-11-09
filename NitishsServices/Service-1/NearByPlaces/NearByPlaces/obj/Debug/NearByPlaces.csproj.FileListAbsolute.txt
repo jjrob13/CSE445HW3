@@ -10,3 +10,9 @@ C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces
 C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.csprojResolveAssemblyReference.cache
 C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.dll
 C:\Users\Nikita\Desktop\NitishBhatiaHW3Part2\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll.config
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\bin\NearByPlaces.pdb
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.dll
+C:\Users\John\Desktop\CSE 445\HW3\NitishsServices\Service-1\NearByPlaces\NearByPlaces\obj\Debug\NearByPlaces.pdb

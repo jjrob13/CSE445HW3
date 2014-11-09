@@ -5,10 +5,11 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
-using StockDescriptionService.StockDataPoints;
 using System.Runtime.Caching;
 using System.IO;
 using System.Web;
+using StockDescriptionService.DataPointsService;
+using StockDescriptionService.GetStockTickerService;
 
 namespace StockDescriptionService
 {
@@ -46,8 +47,16 @@ namespace StockDescriptionService
 
         private string getCompanyTicker(string companyName)
         {
+
+            GetStockTickerService.Service1Client client = new GetStockTickerService.Service1Client();
+            string ticker = client.GetTicker(companyName);
+            writeToLog(ticker);
+            //if the ticker was not found, return null
+            if (ticker.Equals(""))
+                ticker = null;
+
             //uses outside API to resolve stock ticker
-            return companyName;
+            return ticker;
         }
 
         private string createDescriptionForTicker(string ticker, string companyName)
@@ -57,7 +66,7 @@ namespace StockDescriptionService
                 //create proxy
                 StockDataPointsServiceClient stockDataServiceClient = new StockDataPointsServiceClient();
 
-                StockDataPoints.StockDataPoints stockDataForTicker = stockDataServiceClient.GetStockDataPoints(ticker);
+                StockDataPoints stockDataForTicker = stockDataServiceClient.GetStockDataPoints(ticker);
 
 
                 //constant descriptor words whose synonyms will be used to describe stock performance.

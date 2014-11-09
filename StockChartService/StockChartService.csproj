@@ -60,15 +60,30 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\445.pubxml" />
     <None Include="Service References\ChartMakerService\configuration91.svcinfo" />
     <None Include="Service References\ChartMakerService\configuration.svcinfo" />
     <None Include="Service References\ChartMakerService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Service References\GetTickerService\Service1.disco" />
+    <None Include="Service References\GetTickerService\configuration91.svcinfo" />
+    <None Include="Service References\GetTickerService\configuration.svcinfo" />
+    <None Include="Service References\GetTickerService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service References\StockDataPoints\StockChartService.StockDataPoints.StockDataPoints.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Service References\GetTickerService\Service1.wsdl" />
+    <None Include="Service References\GetTickerService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GetTickerService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\StockDataPoints\StockDataPointsService.disco" />
     <None Include="Service References\StockDataPoints\configuration91.svcinfo" />
     <None Include="Service References\StockDataPoints\configuration.svcinfo" />
@@ -81,19 +96,14 @@
     <Content Include="Service References\ChartMakerService\StockChartService.ChartMakerService.MakeChartResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Service References\StockDataPoints\StockDataPointsService.wsdl" />
-    <None Include="Service References\StockDataPoints\StockDataPointsService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\StockDataPoints\StockDataPointsService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\StockDataPoints\StockDataPointsService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Service References\ChartMakerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GetTickerService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -114,6 +124,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\ChartMakerService\webchart.wsdl" />
+    <None Include="Service References\StockDataPoints\StockDataPointsService.wsdl" />
+    <None Include="Service References\StockDataPoints\StockDataPointsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\StockDataPoints\StockDataPointsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\StockDataPoints\StockDataPointsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ChartMakerService\" />
+    <WCFMetadataStorage Include="Service References\GetTickerService\" />
     <WCFMetadataStorage Include="Service References\StockDataPoints\" />
   </ItemGroup>
   <PropertyGroup>

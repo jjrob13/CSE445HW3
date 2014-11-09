@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAAA00ibGRl3I3soZO1JN8DdFr+8hDNngFZxTuumGp6ef3QAAAAAOgAAAAAIAACAAAABDGcdt8hhCaXTNn7QDkTi78H9JD71vj2YHiUKhTpoCkBAAAADXz4wPHQFXDoqy5aSUfyAqQAAAAIrUc1C9zHfkErdLrMG3PUvCpNSBNDh6eBdOfCWFyjc88fTiqZCbjoJgZry+cZHdD49nRah/FJeIPYSEPekWxWI=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/IncidentService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/QuoteofTheDay.dll">
+      <publishTime>11/08/2014 11:23:37</publishTime>
+    </File>
+    <File Include="bin/QuoteofTheDay.pdb">
+      <publishTime>11/08/2014 11:23:37</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 11:23:39</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/08/2014 11:15:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 11:23:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

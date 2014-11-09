@@ -1,3 +1,77 @@
 11/7/2014 7:30:41 PM
 System.NullReferenceException: Object reference not set to an instance of an object.
    at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 71
+11/8/2014 10:29:05 AM
+System.ServiceModel.FaultException: The server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StockDescriptionService.StockDataPoints.IStockDataPointsService.GetStockDataPoints(String stockTicker)
+   at StockDescriptionService.StockDataPoints.StockDataPointsServiceClient.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service References\StockDataPoints\Reference.cs:line 225
+   at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 69
+11/8/2014 10:29:21 AM
+System.ServiceModel.FaultException: The server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StockDescriptionService.StockDataPoints.IStockDataPointsService.GetStockDataPoints(String stockTicker)
+   at StockDescriptionService.StockDataPoints.StockDataPointsServiceClient.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service References\StockDataPoints\Reference.cs:line 225
+   at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 69
+11/8/2014 10:29:58 AM
+System.ServiceModel.FaultException: The server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StockDescriptionService.StockDataPoints.IStockDataPointsService.GetStockDataPoints(String stockTicker)
+   at StockDescriptionService.StockDataPoints.StockDataPointsServiceClient.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service References\StockDataPoints\Reference.cs:line 225
+   at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 69
+11/8/2014 10:30:37 AM
+AAPL
+11/8/2014 10:30:38 AM
+System.ServiceModel.FaultException: The server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StockDescriptionService.StockDataPoints.IStockDataPointsService.GetStockDataPoints(String stockTicker)
+   at StockDescriptionService.StockDataPoints.StockDataPointsServiceClient.GetStockDataPoints(String stockTicker) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service References\StockDataPoints\Reference.cs:line 225
+   at StockDescriptionService.Service1.createDescriptionForTicker(String ticker, String companyName) in c:\Users\John\Desktop\CSE 445\HW3\StockDescriptionService\Service1.svc.cs:line 70
+11/8/2014 10:32:48 AM
+AAPL
+11/8/2014 10:43:09 AM
+MSFT
+11/8/2014 5:26:02 PM
+AAPL
+11/8/2014 6:03:41 PM
+TSLA

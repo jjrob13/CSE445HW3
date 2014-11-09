@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZUWVpngrb0W3macPhjHTEwAAAAACAAAAAAAQZgAAAAEAACAAAACmUmT0nlVwQADtc8GIw01sSFFY5gxWc1nQzn/s56blZQAAAAAOgAAAAAIAACAAAABNG3OJ+98sGf35F/Y91u1w46vguWxS5pouwC1cpvUcoxAAAADlg7ULLgUr4d7miCVWIGpjQAAAACu02pnltVEs8Y183yiBAMDI2yxYsJr22NB+zFiGd5cgNfJhU6Gir0OghsXLUUlSFppok3Hliqukxpngq04qgxI=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://10.1.11.192/TwitterService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/08/2014 11:15:21</publishTime>
+    </File>
+    <File Include="bin/restFullData.dll">
+      <publishTime>11/08/2014 11:25:13</publishTime>
+    </File>
+    <File Include="bin/restFullData.pdb">
+      <publishTime>11/08/2014 11:25:13</publishTime>
+    </File>
+    <File Include="bin/TweetinCore.dll">
+      <publishTime>11/08/2014 11:15:22</publishTime>
+    </File>
+    <File Include="bin/TweetinCore.pdb">
+      <publishTime>11/08/2014 11:15:22</publishTime>
+    </File>
+    <File Include="bin/Tweetinvi.Security.dll">
+      <publishTime>11/08/2014 11:15:22</publishTime>
+    </File>
+    <File Include="bin/TwitterToken.dll">
+      <publishTime>11/08/2014 11:15:22</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/08/2014 11:15:23</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/08/2014 11:25:14</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/08/2014 11:15:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2014 11:25:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
